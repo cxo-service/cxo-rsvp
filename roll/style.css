@@ -29,7 +29,7 @@ body {
 .row.yes .st { color: #1E7F4F; }
 .row.no { background: #FCE4E4; border-color: #B3261E; }
 .row.no .st { color: #B3261E; }
-.row.wait { opacity: .55; }
+.row.wait .st::after { content: ' ⋯'; color: #9AA4B1; }
 .foot { position: fixed; left: 0; right: 0; bottom: 0; background: #FFFFFF; border-top: 1px solid #DCE2EA; padding: 10px 12px calc(10px + env(safe-area-inset-bottom)); }
 .foot[hidden] { display: none; }
 .foot button { display: block; width: 100%; max-width: 520px; margin: 0 auto; font: inherit; font-size: 16px; font-weight: bold; border: 0; border-radius: 10px; padding: 13px; background: #1F3A5F; color: #FFFFFF; }
